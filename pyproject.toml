@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "python-cmd-playground"
+version = "0.1.0"
+description = ""
+authors = ["kumarstack55 <kumarstack55@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+cmd2 = "^2.4.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
